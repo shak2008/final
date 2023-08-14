@@ -19,8 +19,7 @@ class Profit(Base):
     id = Column(Integer, primary_key=True)
     revenue = Column(Float)
     logistic_expenses = Column(Float)
-    product_expenses = Column(Float)
-    other_expenses = Column(Float)
+     other_expenses = Column(Float)
 
 # Создаем таблицу в базе данных
 Base.metadata.create_all()
